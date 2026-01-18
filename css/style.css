@@ -9956,3 +9956,71 @@ body {
   font-weight: 600;
   width: 100%;
 }
+
+
+.img-lado {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Imagen ocupa todo el lado izquierdo */
+.img-lado {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Fondo azul marino ocupa TODO el lado derecho */
+.fondo-azul {
+  background-color: #0a1f44;
+  color: #ffffff;
+  min-height: 100%;
+}
+
+/* Contenido interno con padding */
+.contenido-texto {
+  padding: 80px;
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .contenido-texto {
+    padding: 30px;
+  }
+}
+
+
+/* Contenedor derecho en columna */
+.fondo-azul {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Empuja el botón hacia abajo */
+.btn-inferior {
+  margin-top: auto;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.contenido-texto {
+  padding: 80px;
+}
+
+.img-lado-derecho {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.fondo-melon {
+  background-color: #f7b7a3; /* color melón */
+  color: #2b2b2b;
+  min-height: 100%;
+}
+
